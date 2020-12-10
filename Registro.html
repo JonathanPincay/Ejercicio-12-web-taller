@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Registro</title> 
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <!-- pagina donde encontramos los iconos link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" > 
+    <link rel="stylesheet" href="estilos.css">
+    <script type="text/javascript" src="ap.js"></script>
+	
+
+</head>  
+<body>
+    <!-- clase form -->
+ <form class="formulario">   
+    
+    <h1>Formulario Registrate</h1>
+    <!-- Donde encontramos los iconos -->
+     <div class="contenedor"> 
+     
+     <div class="input-contenedor"> 
+         <i class="fas fa-user icon"></i>
+         <input type="text" name="Nombres" id="Nombres" placeholder="Nombres">
+         </div>
+         
+         <div class="input-contenedor">
+            <i class="fas fa-user icon"></i>
+            <input type="text" name="Apellidos" id="Apellidos" placeholder="Apellidos">
+            </div>
+
+        <div class="input-contenedor">
+            <i class="far fa-id-card icon"></i>
+            <input type="text" name="Cedula" id="Cedula" placeholder="Cedula">                
+            </div>
+
+                <div class="input-contenedor">
+                    <i class="fas fa-phone icon"></i>
+                    <input type="text" name="Telefono" id="Telefono" placeholder="Telefono">
+                    </div>
+            
+         <div class="input-contenedor">
+             <i class="fas fa-envelope icon"></i>
+             <input type="text" name="Email" id="Email" placeholder="Email">
+             </div>
+         
+                <div class="input-contenedor">
+                    <i class="fas fa-key icon"></i>
+                    <input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña">
+                    </div>
+
+                <div class="input-contenedor">
+                    <i class="fas fa-key icon"></i>
+                    <input type="password" name="RepitaContraseña" id="RepitaContraseña" placeholder="RepitaContraseña">
+
+         </div>
+         <button type="button" onclick="getData()" class="button">Registrate</button> 
+         <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+     </div>
+    </form>
+</body>
+</html>
